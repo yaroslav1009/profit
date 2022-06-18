@@ -1,0 +1,113 @@
+.header {
+    overflow: hidden;
+    margin-bottom: 308px;
+}
+.img_absolute {
+    background-color: black;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    img{
+        &:last-child {
+            position: absolute;
+            width: 45%;
+            padding-top: 50px;
+            right: 130px;
+        }
+    }
+    img {
+        &:first-child{
+            position: absolute;
+            width: 100%;
+        }
+    }
+}
+// ------------filter------------------
+.filter {
+    position: absolute;
+    width: 902px;
+    height: 650px;
+    left: 0px;
+    top: 88px;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.8);
+    filter: blur(100px);
+}
+// ----------header-text------------
+.header_special{
+    padding-top: 182px;
+    margin-bottom: 100px;
+    h1 {
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 50px;
+        text-transform: uppercase;
+        border: 1px solid #FAB31B;
+        padding: 10px;
+        color: #FAB31B;
+        margin-bottom: 26px;
+        display: inline-block;
+    }
+    p {
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 43px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 5px;
+        width: 800px;
+        span {
+            color: #FAB31B;
+        }
+    }
+    .name {
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 38px;
+        color: #FFFFFF;
+    }
+}
+.header_stock {
+    p {
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+        color: white;
+        width: 654px;
+        margin-bottom: 25px;
+        span {
+            color: #FAB31B;
+            &:last-child {
+                font-weight: 700;
+            }
+        }
+    }
+    button {
+        background: #FAB31B;
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23.3333px;
+        align-items: center;
+        text-transform: uppercase;
+        a {
+            color: #000000;
+            text-decoration: none;
+        }
+        &:hover {
+            background: #D38F0B;
+            color: #FFFFFF;
+            a {
+                color: #FFFFFF;
+            }
+        }
+    }
+}

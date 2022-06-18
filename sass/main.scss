@@ -1,0 +1,171 @@
+.profit {
+    display: flex;
+    margin-bottom: 104px;
+}
+.profit_border {
+    position: absolute;
+    width: 714px;
+    height: 664px;
+    left: 30px;
+    top: 1040px;
+    border: 1px solid #FAB31B;
+}
+.profit_summer {
+    margin-left: 131px;
+    p {
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 120%;
+        text-transform: uppercase;
+        margin-bottom: 47px;
+        width: 700px;
+        span {
+            color: #FAB31B;
+        }
+    }
+    ul {
+        margin-bottom: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 398px;
+        li {
+            display: flex;
+            align-items: flex-start;
+            svg {
+                margin-right: 30px;
+            }
+            p {
+                margin-bottom: 20px;
+                font-family: 'Cera Pro';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 150%;
+                display: flex;
+                align-items: center;
+                color: #000000;
+            }
+        }
+    }
+}
+// --------------discount--------------------
+.background_black {
+    background-color: #000000;
+    padding-bottom: 111px;
+    background-image: 
+    url(../img/filter_white\ .png),
+    url(../img/filter_white\ \ —\ копия.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right bottom, 0% 100%;
+}
+.discount {
+    padding-top: 86px;
+    h2 {
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 120%;
+        color: #FFFFFF;
+        margin-bottom: 42px;
+        span {
+            color: #FAB31B;
+        }
+    }
+}
+.discount_price {
+    display: flex;
+    margin-bottom: 52px;
+    .discount_price_wait {
+        h3 {
+            font-family: 'Cera Pro';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 120%;
+            color: #FFFFFF;
+            margin-bottom: 37px;
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 335px;
+            li {
+                svg {
+                    margin-right: 30px;
+                }
+                &:last-child{
+                    align-items: center;
+                }
+                display: flex;
+                font-family: 'Cera Pro';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 26px;
+                line-height: 150%;
+                color: #FFFFFF;
+            }
+        }
+    }
+    .discount_price_border {
+        width: 750px;
+        background: #000000;
+        border: 1px solid #FAB31B;
+        padding: 23px 42px;
+        margin-right: 30px;
+        &:first-child {
+            margin-bottom: 34px;
+        }
+        p {
+            font-family: 'Cera Pro';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 150%;
+            text-align: center;
+            color: #FFFFFF;
+            margin-bottom: 15px;
+        }
+        span {
+            font-family: 'Cera Pro';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 150%;
+            color: #FAB31B;
+        }
+        .discount_sail {
+            display: flex;
+            align-items: revert;
+            justify-content: center;
+            height: 65px;
+            img {
+                margin-right: 64px;
+            }
+        }
+    }
+}
+.button {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 0;
+    background: #FAB31B;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    &:hover {
+        background: #D38F0B;
+        color: #FFFFFF;
+    }
+}
